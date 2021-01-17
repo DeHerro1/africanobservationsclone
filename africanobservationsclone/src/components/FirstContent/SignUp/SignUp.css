@@ -1,0 +1,64 @@
+.form {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.error {
+    color: red;
+}
+.gender {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.genders {
+    padding: 20px 0;
+}
+.gender > p {
+    display: flex;
+    width: 100px;
+}
+.gender_input {
+    font-size: 2px;
+}
+.form > h2 {
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+
+.signUp_input {
+    margin-bottom: 20px;
+    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.signup_button{
+    padding: 10px 20px;
+    font-size: 12px;
+}
+.login_option {
+    margin: 30px;
+}
+.option {
+    color: black;
+    font-weight: 700;
+}
+.empty_div {
+    display: none;
+}
+
+@media (min-width: 800px) {
+    .signup {
+        display: flex;
+    }
+    .form {
+        width: 30%;
+    }
+    .empty_div {
+        display: block;
+        width: 50%;
+        background: blue;
+        min-height: 100vh;
+
+    }
+}

@@ -1,0 +1,44 @@
+.home {
+    background-color: deepskyblue;
+    height: 100vh;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+.header_img {
+    display: none;
+}
+.carousel {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+@media (min-width: 800px) {
+    .home {
+        overflow: hidden;
+    }
+    .sub_home {
+        display: flex;
+        width: 100%;
+    }
+    .header {
+        z-index: 50;
+    }
+    .header_img {
+        display: block;
+        position: relative;
+        object-fit: cover;
+        height: 100vh;
+        right: 70px;
+        width: fit-content;
+        z-index: 0;
+    }
+    .carousel {
+        width: 40%;
+        margin: 0 auto;
+        position: relative;
+        top: 140px;
+        left: 50px;
+    }
+}

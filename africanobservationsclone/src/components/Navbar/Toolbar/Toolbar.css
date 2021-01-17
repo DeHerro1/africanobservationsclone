@@ -1,0 +1,45 @@
+.toolbar {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: none;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+.toolbar_add {
+    background: white;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.toolbar nav {
+    height: 100%;
+    display: none;
+}
+
+.toolbar_logo {
+    height: 100%;
+    width: 150px;
+}
+
+@media (min-width: 800px) {
+    .toolbar {
+        height: 70px;
+    }
+
+    .toolbar nav {
+        display: flex;
+
+    }
+    
+    .toolbar_logo {
+        margin: 20px 0;
+        height: 80%;
+        width: 200px;
+    }
+}

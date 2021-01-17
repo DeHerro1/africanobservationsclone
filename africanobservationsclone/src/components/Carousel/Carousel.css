@@ -1,0 +1,24 @@
+.carousel_1, .carousel_2 {
+    margin-bottom: 40px;
+}
+.border {
+    width: 30px;
+    height: 5px;
+    border-radius: 10px;
+    margin-top: -5px;
+    margin-bottom: 20px;
+    background: white;
+}
+.signUp_button, .premium_button {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background: rgb(206, 97, 57);
+}
+
+@media (min-width: 700px) {
+    .main_carousel {
+        height: fit-content;
+    }
+}
